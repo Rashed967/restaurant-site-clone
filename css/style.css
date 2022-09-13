@@ -20,16 +20,29 @@ body{
 
 
 /*navbar part css start*/
+.navbar{
+    position: fixed;
+    z-index: 1;
+    margin-top : -13px
+
+}
+
 .navbar-brand img{
-    width: 115px;
+    width: 140px;
     margin-right: 70px;
+    background-color: white;
+    padding: 15px;
+}
+
+.navbar-nav{
+    margin-top: 40px;
 }
 
 .navbar-nav .nav-item{
-    margin-top: 35px;
+    margin-top: 20px;
 }
 .navbar-nav .nav-item .nav-link{
-    margin: 0 10px;
+    margin: 0 15px;
 
 }
 
@@ -37,6 +50,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
+    color: white;
 }
 
 
@@ -69,6 +83,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    color: white;
 }
 
 .navbar-nav .nav-item:nth-child(8){
@@ -76,7 +91,7 @@ body{
 }
 
 .navbar-nav .nav-item:nth-child(8) a {
-    padding: 14px 35px;
+    padding: 12px 35px;
     background-color: #BC906B;
     position: relative;
     top: -10px;
