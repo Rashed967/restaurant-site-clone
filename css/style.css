@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	/*     font-family: 'Cookie', cursive;
+	       font-family: 'Open Sans', sans-serif;    */
+}
+
+
+/*navbar part css start*/
+.navbar-brand img{
+    width: 115px;
+    margin-right: 70px;
+}
+
+.navbar-nav .nav-item{
+    margin-top: 35px;
+}
+.navbar-nav .nav-item .nav-link{
+    margin: 0 10px;
+
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.navbar-nav .nav-item:nth-child(6){
+    position: relative;
+}
+
+.navbar-nav .nav-item:nth-child(6):after {
+    content: "";
+    width: 1px;
+    height: 44px;
+    background: #BC906B;
+    position: absolute;
+    top: -2px;
+    right: -4px;
+}
+
+
+.nav_contact_info {
+    margin-left: 20px;
+    position: relative;
+    top: -13px;
+    left: -9px;
+}
+
+.nav_contact_info span {
+    position: relative;
+    top: -7px;
+    left: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar-nav .nav-item:nth-child(8){
+    margin-left: 60px;
+}
+
+.navbar-nav .nav-item:nth-child(8) a {
+    padding: 14px 35px;
+    background-color: #BC906B;
+    position: relative;
+    top: -10px;
+    left: -27px;
+    color: white;
+    transition: all linear .3s;
+    box-shadow: 5px 5px 1px #392B20;
+}
+
+.navbar-nav .nav-item:nth-child(8) a:hover{
+    box-shadow: none;
+    transition: all linear .3s;
+}
+
+
+
+
+
+
+
+
+
+/*navbar part css end*/
