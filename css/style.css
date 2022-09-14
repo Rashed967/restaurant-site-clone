@@ -15,7 +15,8 @@ a{
 
 body{
 	/*     font-family: 'Cookie', cursive;
-	       font-family: 'Open Sans', sans-serif;    */
+	       font-family: 'Open Sans', sans-serif;    
+           font-family: 'ZCOOL XiaoWei', serif;         */
 }
 
 
@@ -106,12 +107,113 @@ body{
     transition: all linear .3s;
 }
 
-
-
-
-
-
-
-
-
 /*navbar part css end*/
+
+
+/*banner section css start*/
+.banner_overlay{
+    padding: 100px 0;
+    width: 100%;
+    background-color: yellow;
+}
+
+.carousel-caption{
+    bottom: 11.25rem;
+
+
+}
+
+.carousel-caption h4{
+    font-size: 50px;
+     font-family: 'ZCOOL XiaoWei', serif;
+     color: #BC906B;
+}
+
+.carousel-caption h2{
+    font-size: 150px;
+     font-family: 'ZCOOL XiaoWei', serif;
+     color: #BC906B;
+     line-height: 112px;
+     margin-bottom: 40px;
+}
+
+.carousel-caption p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+     color: white;
+     line-height: 26px;
+     letter-spacing: 5px;
+     position: relative;
+     margin-bottom: 40px;
+}
+
+.carousel-caption p:after{
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    left: 160px;
+    top: 14px;
+}
+
+.carousel-caption p:before{
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    right: 160px;
+    top: 14px;
+}
+
+.carousel-caption a{
+    padding: 12px 24px;
+    background-color: #BC906B;
+    color: white;
+    transition: all linear .3s;
+    box-shadow: 5px 5px 1px #392B20;
+}
+.carousel-caption a:hover{
+    background-color: #222222;
+    box-shadow: none;
+}
+
+
+/*banner section css end*/
+
+
+
+/*service details css part start*/
+
+#service_details {
+    position: relative;
+    top: -100px;
+}
+
+.service_details_content{
+    text-align: center;
+    background-color: white;
+    padding: 50px 40px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+.service_details_content i{
+    font-size: 70px;
+    color: #BC906B;
+}
+
+.service_details_content h4{
+    margin-top: 30px;
+    font-size: 26px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    margin-bottom: 10px;
+}
+
+.service_details_content h4 .colored_text{
+    color: #BC906B;
+}
+
+
+/*service details css part end*/
