@@ -22,7 +22,7 @@ body{
 
 /*navbar part css start*/
 .navbar{
-    position: sticky;
+    position: fixed;
     z-index: 1;
     margin-top : -13px
 
@@ -190,9 +190,10 @@ body{
 /*service details css part start*/
 #service_details{
     position: relative;
-    bottom: 100px;
-    margin-bottom: none;
+    top: -100px;
+    margin-bottom: -100px;
 }
+
 
 .service_details_content{
     text-align: center;
@@ -218,5 +219,25 @@ body{
     color: #BC906B;
 }
 
-
 /*service details css part end*/
+
+
+/*story part css start*/
+#story{
+    padding-right: 80px;
+}
+.common_heading{
+    text-align: center;
+}
+.common_heading h4{
+    font-family: 'Cookie', cursive;
+    font-size: 54px;
+
+}
+
+.common_heading .colored_text{
+    color: #BC906B;
+}
+
+
+/*story part css end*/
