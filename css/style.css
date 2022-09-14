@@ -22,7 +22,7 @@ body{
 
 /*navbar part css start*/
 .navbar{
-    position: fixed;
+    position: sticky;
     z-index: 1;
     margin-top : -13px
 
@@ -111,6 +111,9 @@ body{
 
 
 /*banner section css start*/
+#banner{
+
+}
 .banner_overlay{
     padding: 100px 0;
     width: 100%;
@@ -185,10 +188,10 @@ body{
 
 
 /*service details css part start*/
-
-#service_details {
+#service_details{
     position: relative;
-    top: -100px;
+    bottom: 100px;
+    margin-bottom: none;
 }
 
 .service_details_content{
